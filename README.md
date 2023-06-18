@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Chalk Climbing Centre
 
-Welcome,
+Chalk is a website for a premier indoor climbing gym where users can find out more information about the pricing, location and related news.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Contents
+## User Experience (UX)
 
-## Codeanywhere Reminders
+### Initial Discussion
+### User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+## Design
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Color Scheme
+### Typography
+### Imagery
+### Wireframes
+### Features
+### Accessibility
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Languages Used
+### Frameworks, Libraries & Programs Used
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Deployment & Local Development
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Deployment
+### Local Development
+#### How to Fork
+#### How to Clone
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### W3C Validator
+### Solved Bugs
+### Known Bugs
+### Testing User Stories
+### Lighthouse
+### Full Testing
 
----
 
-Happy coding!
+
+## Credits
+
+### Code Used
+### Content
+### Media
+### Acknowledgments
