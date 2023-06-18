@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Tahoma, Verdana, sans-serif
+}
+
+body {
+    background-color: rgb(195, 195, 199);
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+nav {
+    margin: 0 auto;
+    margin-left: 40%;
+    margin-left: 38%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(250, 250, 250, 0.377);
+}
+
+#menu li {
+    float: center;
+    list-style-type: none;
+    display: inline;
+    font-size: xx-large;
+    background-color: silver;
+
+}
+
+.active {
+    border-bottom: 2px solid whitesmoke;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+#menu a:hover {
+    border-bottom: 2px solid whitesmoke;
+}
