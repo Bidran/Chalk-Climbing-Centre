@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(195, 195, 199);
+    background-color: rgba(155, 142, 142, 0.925);
 }
 
 .logo {
@@ -24,7 +24,7 @@ nav {
     background-color: rgba(250, 250, 250, 0.377);
 }
 
-#menu li {
+.menu li {
     float: center;
     list-style-type: none;
     display: inline;
@@ -50,7 +50,41 @@ nav {
 .intro {
     font-size: x-large
 }
+footer {
+    bottom: 0;
+    position: fixed;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 202, 149);
+    left: 0;
+    right: 0;
+    
+}
 
 .background-white {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
+}
+
+.social-networks {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    right: 20
+
+
+}
+
+.social-networks>li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 1%;
+    color: #5c6142
+}
+
+.location {
+    margin: auto;
 }
