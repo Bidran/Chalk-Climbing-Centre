@@ -46,3 +46,11 @@ nav {
 #menu a:hover {
     border-bottom: 2px solid whitesmoke;
 }
+
+.intro {
+    font-size: x-large
+}
+
+.background-white {
+    color: whitesmoke;
+}
