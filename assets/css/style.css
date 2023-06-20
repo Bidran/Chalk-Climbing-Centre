@@ -13,9 +13,9 @@ body {
     
 }
 
-h1 {top: 0;
-    position: fixed;
-    left: 20%;
+h1 {
+    font-size: xx-large;
+    text-align: center;
 
 }
 
@@ -25,18 +25,24 @@ h1 {top: 0;
     float: left;
 }
 
-nav {
-    margin: 0 auto;
-    margin-left: 40%;
-    margin-left: 38%;
-    position: fixed;
+.menu {
+    margin: auto;
+    position: static;
     top: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+    
     
 }
 
-header {background-color: rgba(255, 255, 255, 0.993);
-height: 2.8em;
-color: #1e1c1c;
+header {
+    background-color: rgba(255, 255, 255, 0.993);
+    height: 2%;
+    color: #1e1c1c;
+    overflow: hidden;
+    
 }
 
 .menu li {
@@ -44,7 +50,10 @@ color: #1e1c1c;
     list-style-type: none;
     display: inline;
     font-size: xx-large;
-    background-color: silver;
+   
+    margin: auto;
+    
+    
 
 }
 
@@ -55,7 +64,11 @@ color: #1e1c1c;
 .menu a {
     text-decoration: none;
     color: inherit;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    float: none;
+    text-align: center;
+    
+    
 
 }
 
