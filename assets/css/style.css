@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     border: 1px solid rgb(223, 165, 165);
-    font-family: Tahoma, Verdana, sans-serif
+    font-family: Tahoma, Verdana, sans-serif;
+    
+    
 }
 
 body {
-    background-color: #1e1c1c
+    background-color: #1e1c1c;
+    color: antiquewhite;
     
 }
 
@@ -33,6 +36,7 @@ nav {
 
 header {background-color: rgba(255, 255, 255, 0.993);
 height: 2.8em;
+color: #1e1c1c;
 }
 
 .menu li {
@@ -59,14 +63,11 @@ height: 2.8em;
     border-bottom: 2px solid rgb(243, 240, 240);
 }
 
-.intro {
-    font-size: x-large;
-    color: antiquewhite;
-}
+
 footer {
     bottom: 0;
     position:fixed;
-    height: 100px;
+    height: 120px;
     display: flex;
     flex-direction: row;
     background-color: burlywood;
@@ -119,21 +120,46 @@ footer {
 }
 
 
+
 .intro {
-    float: right;
-    width: 100%;
-    right: 100;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 53%;
     word-spacing: 0.2em;
+    font-size: x-large;
+    color: antiquewhite;
+    
+    word-break: break-all;
+    
+   
+}
+
+.intro h2 {
+    right: 20%;
+    
 }
 
 .intro p {
-    width: 30%;
-    float: right;
+    width: 70%;
+    
     
 }
 
 #graph {
-    width: 20%;
-    height: 200%;
+    flex-wrap: wrap;
+    width: auto;
     float: left;
+    clear: left;
+    height: 300px;
+    scale: 80%;
+    margin-left: 3em;
+    margin-top: 5em;
+   
+}
+
+#main {
+    clear: both;
+    width: 100%;
 }
