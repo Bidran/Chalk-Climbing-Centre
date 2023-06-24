@@ -212,6 +212,11 @@ footer {
     border: 1px solid #fff9f900;
    
 }
+.imgindiv:hover {
+    animation: imgzoom 1s;
+    animation-fill-mode: both;
+    overflow: hidden;
+}
 
 #endp {
     margin-top: 5em;
@@ -252,3 +257,11 @@ footer {
     }
 } 
 
+@keyframes imgzoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
