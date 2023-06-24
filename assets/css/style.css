@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid rgb(223, 165, 165);
+    border: 1px solid rgb(224, 165, 165);
     font-family: Tahoma, Verdana, sans-serif;
     
     
@@ -83,7 +83,7 @@ footer {
     height: 120px;
     display: flex;
     flex-direction: row;
-    background-color: burlywood;
+    background-color:#1e1c1c;
     left: 0;
     right: 0;
     gap: 2em;
@@ -128,23 +128,28 @@ footer {
     display: flex;
     width: 100;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
+    margin-top: 100px;
 }
 
 
 
 .intro {
     margin-top: 1em;
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 53%;
-    word-spacing: 0.2em;
-    font-size: x-large;
-    color: antiquewhite;
+    justify-content: center;
     
-    word-break: break-all;
+    word-spacing: 0.2em;
+    font-size: 1.6em;
+    color: #1e1c1c;
+    width: fit-content;
+    background-color: antiquewhite;
+    word-break: break-word;
+    border-color: #1e1c1c;
+    border-radius: 2em;
     
    
 }
@@ -155,6 +160,7 @@ footer {
 }
 
 .intro p {
+    margin-top: 1%;
     width: 70%;
     
     
@@ -165,7 +171,7 @@ footer {
     width: auto;
     float: left;
     clear: left;
-    height: 300px;
+    height: 300%;
     scale: 80%;
     margin-left: 3em;
     margin-top: 5em;
@@ -176,3 +182,31 @@ footer {
     clear: both;
     width: 100%;
 }
+
+.imgindiv {
+    width: 300px;
+    height: auto;
+    scale: 1;
+}
+
+@media screen and (max-width: 950px) {
+   
+    #graph{
+        margin-left: 0; 
+        width: 100%;
+    }
+    .images {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .imgindiv {
+        width: 100%;
+        height: auto;
+        top: 0;
+        margin: 0;
+        scale: 0.9;
+        
+        
+    }
+} 
