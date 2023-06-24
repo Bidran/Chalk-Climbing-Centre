@@ -102,6 +102,8 @@ footer {
     right: 0;
     gap: 2em;
     font-size: 100%;
+    padding-top: 2em;
+   
     
     
 }
@@ -219,10 +221,13 @@ footer {
 }
 
 #endp {
+    width: 105%;
     margin-top: 5em;
-    font-size: large;
+    font-size: xx-large;
     background-color: #1e1c1c;
-    height: 300px;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 4em;
 }
 
 @media screen and (max-width: 950px) {
