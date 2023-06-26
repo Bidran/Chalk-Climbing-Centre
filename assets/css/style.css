@@ -53,11 +53,12 @@ h1 {
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.993);
+    background-color: rgba(34, 34, 29, 0.692);
     height: 2%;
     color: #1e1c1c;
     overflow: hidden;
-    
+    border: 1px solid #1e1c1c;
+    border-radius: 4em;
 }
 
 .menu li {
@@ -78,8 +79,8 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: inherit;
-    background-color: whitesmoke;
+    color: #edeee7;
+    background-color:  rgba(34, 34, 29, 0.692);
     text-align: center;
 
     
