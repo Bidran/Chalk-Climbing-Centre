@@ -229,6 +229,7 @@ footer {
 #endp {
     width: 100%;
     margin-top: 5em;
+    padding-top: 5em;
     font-size: xx-large;
     background-color: #1e1c1c;
     height: fit-content;
