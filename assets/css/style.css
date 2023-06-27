@@ -23,13 +23,19 @@ body {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 7em;
     text-align: center;
     font-weight: 700;
     letter-spacing: 0.2em;
     font-variant: small-caps;
-    margin-top: 2.5em;
     font-family: 'Courier New', Courier, monospace;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    margin-top: 2em;
+    font-weight: 900;
+    color: rgb(233, 236, 236);
+    text-shadow: 10px 10px 2px rgb(0, 0, 0);
     
 }
 
@@ -105,7 +111,6 @@ footer {
     right: 0;
    width: 100%;
     font-size: 100%;
-    padding-top: 2em;
     gap: 2em;
    
     
@@ -195,22 +200,34 @@ footer {
     
 }
 
+#heroimgbig {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    object-fit: cover;
+    height: 75%;
+}
+
+
 #graph {
     flex-wrap: wrap;
     width: auto;
     float: left;
     clear: left;
     height: 30em;
-    scale: 110%;
-    margin-left: 3em;
-    margin-top: 15em;
+    scale: 60%;
+    
    
 }
 
 #main {
-    margin-top: 8%;
+    margin-top: 37%;
+    padding-top: 2em;
+    
     background-color: #1e1c1c;
     padding-bottom: 5em;
+    position: relative;
 }
 
 .imgindiv {
