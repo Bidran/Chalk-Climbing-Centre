@@ -209,6 +209,9 @@ footer {
     top: 0;
 }
 
+#heroimgsmall {
+    display: none;
+}
 
 #graph {
     flex-wrap: wrap;
@@ -274,13 +277,26 @@ footer {
         font-weight: 700;
     }
 
-   
+   #heroimgbig {
+    display: none;
+   }
+
+   #heroimgsmall {
+    display: block;
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    z-index: 2;
+    
+   }
 
     .hide {
         display: none;
     }
         
-
+    h1 {
+        font-size: 4em;
+    }
     #graph{
        margin: 0;
        padding: 0px;
@@ -289,6 +305,13 @@ footer {
         height: auto;
         
         
+    }
+    #endp {
+        padding-top: 0;
+    }
+
+    #main {
+        margin-top: 70%;
     }
 
     .images {
