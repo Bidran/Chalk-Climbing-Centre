@@ -37,6 +37,8 @@ Chalk is a website for a premier indoor climbing gym where users can find out mo
 
 ### W3C Validator
 ### Solved Bugs
+    On 320px devices it was scrollable to the right
+    Fixed by changing font size on h1 caused by shadow and sizing down images
 ### Known Bugs
 ### Testing User Stories
 ### Lighthouse
