@@ -399,7 +399,11 @@ footer {
         margin-right: 10px;
         
 } 
-    
+
+.centered {
+    right: 8%;
+    bottom: 16%;
+}
 }
 
 @keyframes imgzoom {
