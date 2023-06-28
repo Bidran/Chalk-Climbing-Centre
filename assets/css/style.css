@@ -141,6 +141,7 @@ footer {
     padding: 1%;
     color: #edeee7;
     float: right;
+    
 }
 
 .location {
@@ -235,7 +236,7 @@ footer {
 }
 
 #main {
-    margin-top: 680px;
+    margin-top: 700px;
     padding-top: 2em;
     
     background-color: #1e1c1c;
@@ -250,7 +251,7 @@ footer {
     border: 1px solid #fff9f900;
    
 }
-.imgindiv:hover {
+.hover:hover {
     animation: imgzoom 1s;
     animation-fill-mode: both;
     overflow: hidden;
@@ -266,6 +267,26 @@ footer {
     text-align: center;
     font-size: 1.6em;
     padding-bottom: 4em;
+}
+
+.images div {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+    
+    color: #edeee7;
+   
+    font-weight: 800;
+    font-size: 1.2em;
+    color: rgb(230, 224, 224);
+    background-color :#1e1c1c;
+    padding: 6px;
+    
+   
 }
 
 @media screen and (max-width: 950px) {
@@ -300,14 +321,17 @@ footer {
     display: block;
     width: 100%;
     position: absolute;
-    object-fit: contain;
+    object-fit: cover;
     z-index: 2;
+    height: 600px;
+    top: 0;
     
    }
    body {
     position: absolute;
     width: 100vw;
    }
+   
    .intro p {
     width: auto;
     text-align: center;
@@ -332,8 +356,9 @@ footer {
        margin: 0;
        padding: 0px;
         overflow: hidden;
-        width: 95%;
+        width: 100%;
         height: auto;
+        scale: 1;
         
         
     }
@@ -344,7 +369,7 @@ footer {
     }
 
     #main {
-        margin-top: 70%;
+       margin-top: 31em;
        
     }
 
@@ -371,7 +396,7 @@ footer {
     .social-networks i {
         font-size: 200%;
         margin-bottom: 0.8em;
-        margin-right: 0;
+        margin-right: 10px;
         
 } 
     
