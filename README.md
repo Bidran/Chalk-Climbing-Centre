@@ -41,6 +41,8 @@ Chalk is a website for a premier indoor climbing gym where users can find out mo
     Fixed by changing font size on h1 caused by shadow and sizing down images
 
     Graph fixed positioning
+
+    Fix text positioning on images
 ### Known Bugs
 ### Testing User Stories
 ### Lighthouse
