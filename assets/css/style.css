@@ -234,6 +234,9 @@ footer {
     
    
 }
+.middle {text-align: center;}
+
+
 
 #main {
     margin-top: 700px;
@@ -242,6 +245,20 @@ footer {
     background-color: #1e1c1c;
     padding-bottom: 5em;
     position: relative;
+}
+
+.table {font-size: 4em;
+font-weight: bold;
+}
+
+th,td {
+    padding: 0.2em;
+}
+
+
+table, th, td {
+    border: 1px solid #edeee7;
+    border-collapse: collapse;
 }
 
 .imgindiv {
