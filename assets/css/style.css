@@ -111,7 +111,7 @@ footer {
     left: 0;
     right: 0;
    width: 100%;
-    font-size: 100%;
+    font-size: 150%;
     gap: 1em;
    
     
@@ -245,6 +245,9 @@ margin-top: 1em;}
     #daypasstable {
         margin: 3em auto;
     }
+    #membership {
+        margin: 3em auto;
+    }
     
 
 #main {
@@ -335,6 +338,8 @@ table, th, td {
 
     footer {
         width: 100%;
+        font-size: 100%;
+        
     }
    #heroimgbig {
     display: none;
@@ -434,8 +439,15 @@ margin-right: 0.4em;}
         margin: 5px;
         }
         #daypasstable {
-            margin: 1em auto;
+            margin: 2em auto;
         }
+
+        #membership {
+            margin: 2em auto;
+           
+            margin-bottom: 300px;
+        }
+
 
 .centered {
     right: 8%;
