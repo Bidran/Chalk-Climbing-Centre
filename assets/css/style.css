@@ -234,9 +234,18 @@ footer {
     
    
 }
-.middle {text-align: center;}
+.middle {text-align: center;
+font-size: 3em;
+margin-top: 1em;}
 
-
+.table {font-size: 3em;
+    font-weight: bold;
+    margin: 5px;
+    }
+    #daypasstable {
+        margin: 3em auto;
+    }
+    
 
 #main {
     margin-top: 700px;
@@ -247,9 +256,6 @@ footer {
     position: relative;
 }
 
-.table {font-size: 4em;
-font-weight: bold;
-}
 
 th,td {
     padding: 0.2em;
@@ -416,6 +422,20 @@ table, th, td {
         margin-right: 10px;
         
 } 
+
+.middle {text-align: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+margin-left: 0.4em;
+margin-right: 0.4em;}
+    
+    .table {font-size: 1.6em;
+        font-weight: bold;
+        margin: 5px;
+        }
+        #daypasstable {
+            margin: 1em auto;
+        }
 
 .centered {
     right: 8%;
