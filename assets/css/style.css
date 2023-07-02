@@ -251,11 +251,21 @@ line-height: 1.3em;}
     line-height: 1.4;
 }
 .text-width-news h2 {
-    text-decoration: underline 2px solid whitesmoke;
-    text-underline-offset: 0.4em;
+    
+    margin-top: 1.5em;
+    font-size: 3em;
+    font-variant: small-caps;
     
 }
 
+.middle hr {
+    width: 100%;
+    margin-bottom: 1em;
+    
+}
+.margin-bottom p {
+    margin-bottom: 5em;
+}
 .imgwidth {
     margin-bottom: 3em;
     width: 50%;
