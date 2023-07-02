@@ -245,6 +245,31 @@ line-height: 1.3em;}
     width: 80%;
 }
 
+.text-width-news {
+    width: 70%;
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+.text-width-news h2 {
+    text-decoration: underline 2px solid whitesmoke;
+    text-underline-offset: 0.4em;
+    
+}
+
+.imgwidth {
+    margin-bottom: 3em;
+    width: 50%;
+}
+
+.date {margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: left;
+    margin-left: 2%;
+    width: 100%;
+font-weight: bold;
+text-decoration: underline solid 0.2px;
+color: rgba(204, 202, 200, 0.596);}
+
 .table {font-size: 1.7em;
     font-weight: bold;
     margin: 5px;
@@ -408,8 +433,9 @@ table, th, td {
        margin-top: 34em;
        
     }
-
-    .images {
+.date {text-align: center;}
+    
+.images {
         display: block;
         flex-direction: column;
         flex-wrap: wrap;
@@ -460,7 +486,19 @@ margin-right: 0.4em;}
         .text-width {
             width: 90%;
         }
-
+        .text-width-news {
+            width: 90%;
+            font-size: 1.2em;
+        }
+        .text-width-news h2 {
+            margin-left: 5%;
+            
+           
+        }
+        .imgwidth {
+           margin-left: 3.3%;
+            width: 100%;
+        }
 .centered {
     right: 8%;
     bottom: 16%;
