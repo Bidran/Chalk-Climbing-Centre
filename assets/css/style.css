@@ -371,6 +371,30 @@ table, th, td {
    
 }
 
+.about-text {
+    font-size: 1.6em;
+    width: 30%;
+    float: right;
+   padding-bottom: 10em;
+   margin-right: 15%;
+}
+.about-text p {
+    margin-bottom: 2em;
+}
+#aboutusimg {
+    width: 30%;
+    margin-left: 10%;
+}
+
+#main-about {
+    margin-top: 800px;
+    padding-top: 2em;
+    
+    background-color: #1e1c1c;
+    padding-bottom: 5em;
+    position: relative;
+}
+
 @media screen and (max-width: 950px) {
    
     .bg-img {
@@ -457,6 +481,29 @@ table, th, td {
        margin-top: 34em;
        
     }
+
+    #main-about {
+        margin-top: 34em;
+    }
+
+    #aboutusimg {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 7em;
+        margin-top: 0;
+       
+    }
+
+    
+.about-text {
+    float: none;
+    width: 100%;
+    text-align: center;
+   margin-bottom: 0;
+   padding: 0;
+   font-size: 1.2em;
+   
+}
 .date {text-align: center;}
     
 .images {
