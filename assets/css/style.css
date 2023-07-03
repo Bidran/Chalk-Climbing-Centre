@@ -247,7 +247,7 @@ line-height: 1.3em;}
 
 .text-width-news {
     width: 70%;
-    font-size: 1.3em;
+   
     line-height: 1.4;
 }
 .text-width-news h2 {
@@ -269,6 +269,20 @@ line-height: 1.3em;}
 .imgwidth {
     margin-bottom: 3em;
     width: 50%;
+    
+}
+
+#imginduction {
+    margin-bottom: 3em;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 6em;
+    
+}
+
+.margin-top{
+    margin-top: 4em;
+   
 }
 
 .date {margin-top: 1em;
@@ -508,6 +522,12 @@ margin-right: 0.4em;}
         .imgwidth {
            margin-left: 3.3%;
             width: 100%;
+        }
+        #imginduction {
+            margin-top: 3em;
+            margin-left: 2.5%;
+            width: 95%;
+            padding-bottom: 4em;
         }
 .centered {
     right: 8%;
