@@ -223,13 +223,14 @@ footer {
     display: none;
 }
 
-#graph {
-    flex-wrap: wrap;
+.graph {
+   
     width: auto;
     float: left;
-    clear: left;
+   
     height: 30em;
     scale: 60%;
+    margin-top: 10em;
     
    
 }
@@ -394,6 +395,42 @@ table, th, td {
     position: relative;
 }
 
+.hidebig {
+    display: none;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .graph {
+        height: auto;
+        width: 100%;
+        
+       margin-top: 0;
+       padding: 0;
+        
+        
+
+    } 
+    .intro {
+        width: 95%;
+        margin-left: 2.5%;
+        padding-left: 0;
+    }
+
+    .hover {
+        scale: 0.9;
+    }
+    .hide {
+        display: none;
+    }
+   .showbig{
+    display: block;
+   }
+   .hidebig {
+    display: block;
+   }
+}
+
 @media screen and (max-width: 950px) {
    
     .bg-img {
@@ -461,13 +498,15 @@ table, th, td {
     h1 {
         font-size: 3.5em;
     }
-    #graph{
+    .graph{
        margin: 0;
        padding: 0px;
         overflow: hidden;
         width: 100%;
         height: auto;
         scale: 1;
+        margin-top: 2em;
+        
         
         
     }
@@ -580,7 +619,11 @@ margin-right: 0.4em;}
     right: 8%;
     bottom: 16%;
 }
+.hidebig {
+    display: block;
+   }
 }
+
 
 @keyframes imgzoom {
     from {
