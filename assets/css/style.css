@@ -432,6 +432,20 @@ table, th, td {
    .hidebig {
     display: block;
    }
+   .imgwidth {
+    width: 80%;
+   }
+   #aboutusimg {
+    width: 100%;
+    margin-left: 0;
+    
+    
+}
+.about-text {
+    margin: 0;
+    width: 90%;
+    padding-bottom: 2em;
+}
 }
 
 @media screen and (max-width: 950px) {
