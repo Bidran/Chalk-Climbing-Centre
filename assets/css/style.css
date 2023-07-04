@@ -318,8 +318,11 @@ color: rgba(204, 202, 200, 0.596);}
 
 th,td {
     padding: 0.2em;
+
 }
 
+td {font-weight: 500;
+font-size: 80%;}
 
 table, th, td {
     border: 1px solid #edeee7;
