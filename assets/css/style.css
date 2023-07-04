@@ -157,7 +157,7 @@ footer {
     justify-content: center;
     justify-content: space-around;
     margin: auto;
-    margin-top: 200px;
+ 
     padding-top: 6em;
     padding-bottom: 6em;
    
@@ -178,7 +178,6 @@ footer {
    
     
     
-    width: fit-content;
     
     word-break: break-word;
     border-color: #1e1c1c;
@@ -408,6 +407,7 @@ table, th, td {
             .intro {
                 font-size: xx-large;
                 text-align: left;
+                width: fit-content;
             }
 
     .menu a{
