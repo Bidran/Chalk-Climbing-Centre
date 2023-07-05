@@ -406,14 +406,9 @@ table, th, td {
 @media screen and (max-width: 1600px) {
     .graph {
         height: auto;
-        width: 50%;
-        
+        width: 45%;
        margin-top: 20em;
        padding: 0;
-      
-
-        
-
     } 
     
     .intro p {
@@ -421,7 +416,6 @@ table, th, td {
     }
     .intro {
         width: 50%;
-       margin-right: 2.5%;
         padding-left: 0;
 
     }
