@@ -1,6 +1,6 @@
 # Chalk Climbing Centre
 
-Chalk is a website for a premier indoor climbing gym where users can find out more information about the pricing, location and related news.
+Chalk is a website for a premier indoor climbing gym where users can find out more information about the pricing, location and related news. View the live site: [Chalk Climbing Centre](https://bidran.github.io/Chalk-Climbing-Centre/)
 
 
 ## Contents
