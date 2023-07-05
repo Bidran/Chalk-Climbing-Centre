@@ -406,32 +406,34 @@ table, th, td {
 @media screen and (max-width: 1600px) {
     .graph {
         height: auto;
-        width: 100%;
+        width: 50%;
         
-       margin-top: 0;
+       margin-top: 20em;
        padding: 0;
-        
+      
+
         
 
     } 
+    
+    .intro p {
+        width: 100%;
+    }
     .intro {
-        width: 95%;
-        margin-left: 2.5%;
+        width: 50%;
+       margin-right: 2.5%;
         padding-left: 0;
+
     }
 
     .hover {
         scale: 0.9;
     }
-    .hide {
-        display: none;
-    }
+   
    .showbig{
     display: block;
    }
-   .hidebig {
-    display: block;
-   }
+  
    .imgwidth {
     width: 80%;
    }
