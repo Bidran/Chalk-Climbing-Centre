@@ -113,7 +113,7 @@ footer {
    width: 100%;
     font-size: 120%;
     gap: 1em;
-   
+   z-index: 3;
     
     
 }
@@ -211,7 +211,7 @@ footer {
 #heroimgbig {
     width: 100%;
     height: 770px;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     
     object-fit: cover;
