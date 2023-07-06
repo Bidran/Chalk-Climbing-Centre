@@ -255,7 +255,7 @@ line-height: 1.3em;}
 }
 .text-width-news h2 {
     
-    margin-top: 1.5em;
+  
     font-size: 3em;
     font-variant: small-caps;
     
@@ -266,8 +266,8 @@ line-height: 1.3em;}
     margin-bottom: 1em;
     
 }
-.margin-bottom p {
-    margin-bottom: 5em;
+.margin-bottom  {
+    margin-bottom: 3em;
 }
 .imgwidth {
     margin-bottom: 3em;
@@ -289,13 +289,14 @@ line-height: 1.3em;}
 }
 
 .date {margin-top: 1em;
-    margin-bottom: 2em;
+ 
     text-align: left;
     margin-left: 2%;
     width: 100%;
 font-weight: bold;
 text-decoration: underline solid 0.2px;
 color: rgba(204, 202, 200, 0.596);}
+
 
 .table {font-size: 1.7em;
     font-weight: bold;
@@ -433,6 +434,7 @@ table, th, td {
   
    .imgwidth {
     width: 80%;
+    
    }
    #aboutusimg {
     width: 100%;
@@ -559,7 +561,8 @@ table, th, td {
    font-size: 1.2em;
    
 }
-.date {text-align: center;}
+.date {text-align: center;
+margin-bottom: 2em;}
     
 .images {
         display: block;
@@ -595,7 +598,7 @@ table, th, td {
 .middle {text-align: center;
     font-size: 1.5em;
     margin-top: 1em;
-margin-left: 0.4em;
+
 margin-right: 0.4em;}
     
     .table {font-size: 1.6em;
@@ -616,6 +619,7 @@ margin-right: 0.4em;}
         }
         .text-width-news {
             width: 90%;
+            margin-left: 5%;
             font-size: 1.2em;
         }
         .text-width-news h2 {
@@ -624,7 +628,7 @@ margin-right: 0.4em;}
            
         }
         .imgwidth {
-           margin-left: 3.3%;
+           
             width: 100%;
         }
         #imginduction {
@@ -632,6 +636,10 @@ margin-right: 0.4em;}
             margin-left: 2.5%;
             width: 95%;
             padding-bottom: 4em;
+        }
+
+        .padding-bot {
+            padding-bottom: 8em;
         }
 .centered {
     right: 8%;
