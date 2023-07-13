@@ -461,10 +461,16 @@ table, th, td {
     
 }
 .about-text {
-    margin: 0;
+    margin: 5%;
     width: 90%;
-    padding-bottom: 2em;
+   
 }
+#aboutusimg {
+    margin-left: 10%;
+    
+    width: 80%;
+}
+
 }
 
 @media screen and (max-width: 950px) {
@@ -569,7 +575,7 @@ table, th, td {
     #endp {
         padding-top: 0;
         margin-top: 2em;
-        padding-bottom: 0;
+        padding-bottom: 2em;
        
     }
 
@@ -580,10 +586,12 @@ table, th, td {
 
     #main-about {
         margin-top: 34em;
+        width: 90%;
+        
     }
 
     #aboutusimg {
-        width: 100%;
+        width: 110%;
         margin-left: 0;
         padding-bottom: 7em;
         margin-top: 0;
@@ -678,7 +686,7 @@ margin-right: 0.4em;}
         }
 
         .padding-bot {
-            padding-bottom: 8em;
+            padding-bottom: 1em;
         }
 .centered {
     right: 8%;
