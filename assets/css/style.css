@@ -10,8 +10,12 @@
 body {
     background-color: #1e1c1c;
     color: antiquewhite;
-    margin-bottom: 150px;
     
+    
+   
+    zoom: 85%;
+
+ 
    
 }
 
@@ -41,8 +45,8 @@ h1 {
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     float: left;
 }
 
@@ -58,6 +62,7 @@ h1 {
     
     
     
+    
 }
 
 header {
@@ -67,15 +72,17 @@ header {
     overflow: hidden;
     z-index: 3;
     position: relative;
+    
 }
 
 .menu li {
     
     list-style-type: none;
     display: inline;
-    font-size: xx-large;
+    font-size: 2.5em;
    
     margin: auto;
+    margin-top: 0.5em;
     
     
 
@@ -102,20 +109,25 @@ header {
 
 footer {
     bottom: 0;
-    position:fixed;
+   
     height: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color:#1e1c1c;
-    left: 0;
-    right: 0;
+
    width: 100%;
-    font-size: 120%;
+    font-size: 140%;
     gap: 1em;
-   z-index: 3;
-   
+   z-index: 1;
+   padding-bottom: 1em;
     
+    
+}
+
+
+.hours {
+    margin-left: 0.4em;
     
 }
 
@@ -142,7 +154,7 @@ footer {
     font-size: 300%;
     margin: 1%;
     padding: 1%;
-    color: #edeee7;
+    color: #f5f7ef;
     float: right;
     
 }
@@ -338,7 +350,9 @@ table, th, td {
     width: 350px;
     height: auto;
    transform: scale(1);
-    border: 1px solid #fff9f900;
+    border:1px solid #fff9f900;
+    
+   
    
 }
 
@@ -349,9 +363,10 @@ table, th, td {
 }
 
 #endp {
-    width: 100%;
-    margin-top: 5em;
+    width: 70%;
+    margin-top: 2em;
     padding-top: 5em;
+   margin-left: 15%;
     font-size: xx-large;
     background-color: #1e1c1c;
     height: fit-content;
@@ -410,6 +425,8 @@ table, th, td {
 
 
 @media screen and (max-width: 1600px) {
+ 
+   
     .graph {
         height: auto;
         width: 45%;
@@ -452,13 +469,24 @@ table, th, td {
 
 @media screen and (max-width: 950px) {
    
+    .menu li {
+        font-size: 3em;
+        margin-top: 0
+    }
+
+    .logo {
+       display: none;
+    }
     .bg-img {
         background-size:400% ;
     }
 
+    body {
+        zoom: 100%;
+    }
     nav  
         {width: 100%;
-        height: 50px;}
+        height: 70px;}
     
             .intro {
                 font-size: xx-large;
@@ -468,17 +496,26 @@ table, th, td {
 
     .menu a{
         width: fit-content;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 700;
     }
 
     footer {
         width: 100%;
-        font-size: 100%;
+        font-size: 90%;
         z-index: 2;
+        height: fit-content;
+        ;
         
     }
-   #heroimgbig {
+    .hours {
+        width: 150px;
+       
+    }
+    
+   
+   
+    #heroimgbig {
     display: none;
    }
 
@@ -532,7 +569,8 @@ table, th, td {
     #endp {
         padding-top: 0;
         margin-top: 2em;
-        padding-bottom: 8em;
+        padding-bottom: 0;
+       
     }
 
     #main {
@@ -613,7 +651,7 @@ margin-right: 0.4em;}
         #membership {
             margin: 2em auto;
            
-            margin-bottom: 300px;
+            margin-bottom: 2em;
         }
         .text-width {
             width: 90%;
