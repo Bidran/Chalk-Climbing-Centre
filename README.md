@@ -247,6 +247,8 @@ To clone the Chalk-Climbing-Centre repository:
     Graph fixed positioning
 
     Fix text positioning on images
+
+
 ### Known Bugs
 ### Testing User Stories
 ### Lighthouse
