@@ -87,13 +87,98 @@ Wireframes created for desktop and mobile showing the original idea behind the p
 
 
 ### Features
-### Accessibility
 
+The website is comprised of five pages, four of which are accessible from the navigation menu (home page, membership, news & about us page). The fourth page is an induction page which is accessible through a link on the home page.
+
+
+* All Pages on the website have:
+
+  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is an image of Chalk Climbing Centre's logo which also leads to the home page. To the right of the navigation bar are the links to the websites pages (home page, membership, news & about us). To allow a good user experience of the site, the Chalk Climbing Centre's logo is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered and undersized.
+
+  * A footer which contains information on opening hours and the location along with social media icon links to facebook and instagram.
+
+  * A hero image with the title of Chalk Climbing Centre
+
+* Home Page.
+  * Intro Section.
+
+    An introduction on what Chalk Climbing Centre is all about.
+  * A graph.
+
+     A graph which shows the busiest hours that allows members to come to the gym when it's less busy if that is their choice.
+  * Links section.
+    
+    This section allows the user to navigate and snap viewport to different parts of the website by clicking on the images. (Pricing, Induction and About Us page)
+
+* Membership.
+  * Day pass section.
+
+    Information about registration, shoe hire and a table with pricing for single entry. 
+
+  * Membership section.
+    
+    This section allows the user to find out information about variation in pricing between 3, 6 and 12 month memberships.
+
+* News.
+  * News section.
+
+    Each news article contains an image, date published and an information about past or upcoming events seperated by a line.
+
+
+* About Us.
+  * About us section.
+
+    This section provides information about owners of the gym along with an image of them inside the gym. 
+
+* Induction.
+  * Induction section.
+
+    This section provides gives information on our procedure for climbers coming for the first time to the gym along with an image of one of the instructors. 
+  
+
+
+
+### Accessibility
+The website has been made with accessibility in mind for ease of access which was achieved by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring menus are accessible by marking the current page as current for screen readers.
 
 ## Technologies Used
 
+Visual Studio Code - To code the website.
+
+Balsamiq - Used to create wireframes.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[11zon](https://www.11zon.com/) To compress images.
+
+[Shutterstock](https://www.shutterstock.com/) To acquire royalty free images.
+
+[Pexels](https://www.pexels.com/) To acquire royalty free images.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+[Pixlr](https://pixlr.com/) To edit the images to fit the theme of the website.
+
+
 ### Languages Used
-### Frameworks, Libraries & Programs Used
+
+The structure of the website was developed using HTML as the main language.
+
+The website was styled using CSS.
+
 
 ## Deployment & Local Development
 
