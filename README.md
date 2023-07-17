@@ -222,12 +222,23 @@ To clone the Chalk-Climbing-Centre repository:
 * HTML
   * No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
+![Home HTML Validator Results](/assets/docs/testing/htmlvalidatorhome.PNG)
 
+![Membership HTML Validator Results](/assets/docs/testing/htmlvalidatormembership.PNG)
 
-  * CSS
-   * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+![News HTML Validator Results](/assets/docs/testing/htmlvalidatornews.PNG)
 
-        
+![About Us HTML Validator Results](/assets/docs/testing/htmlvalidatorabout.PNG)
+
+![Induction HTML Validator Results](/assets/docs/testing/htmlvalidatorinduction.PNG)
+
+![404 HTML Validator Results](/assets/docs/testing/htmlvalidator404.PNG)
+
+* CSS
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+![404 HTML Validator Results](/assets/docs/testing/cssvalidator.PNG)
+
 
 ### Solved Bugs
     On 320px devices it was scrollable to the right
