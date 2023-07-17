@@ -183,14 +183,52 @@ The website was styled using CSS.
 ## Deployment & Local Development
 
 ### Deployment
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Chalk-Climbing-Centre’.
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Chalk-Climbing-Centre.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
 ### Local Development
+
 #### How to Fork
+
+To fork the Chalk-Climbing-Centre repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, bidran/Chalk-Climbing-Centre.
+3. Click the Fork button in the top right corner.
+
 #### How to Clone
+
+To clone the Chalk-Climbing-Centre repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, bidran/Chalk-Climbing-Centre.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 
 ## Testing
 
 ### W3C Validator
+* HTML
+  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+
+
+  * CSS
+   * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
+
+        
+
 ### Solved Bugs
     On 320px devices it was scrollable to the right
     Fixed by changing font size on h1 caused by shadow and sizing down images
