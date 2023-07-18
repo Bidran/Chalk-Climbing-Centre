@@ -1,3 +1,5 @@
+/* Site wide applied css */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,11 +12,6 @@ body {
     zoom: 85%;
 }
 
-.bg-img {
-    background-image: url(../images/wallbackgroundblackblur.jpg);
-    background-size: 110%;
-}
-
 h1 {
     font-size: 7em;
     text-align: center;
@@ -25,10 +22,48 @@ h1 {
     z-index: 2;
     position: absolute;
     width: 100%;
-    margin-top: 2em;
+    margin-top: -4.3em;
     font-weight: 900;
     color: rgb(233, 236, 236);
     text-shadow: 10px 10px 2px rgb(0, 0, 0);
+}
+
+/* Classes that were used multiple times troughout website to center the text */
+.middle {
+    text-align: center;
+    font-size: 1.7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    line-height: 1.3em;
+}
+
+.text-width {
+    width: 80%;
+}
+
+/* Hero images, smaller image hidden on bigger devices */
+#heroimgbig {
+    width: 100%;
+    height: 770px;
+    z-index: 2;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+}
+
+#heroimgsmall {
+    display: none;
+}
+
+/* Header styling */
+header {
+    background-color: rgba(10, 10, 10, 0.692);
+    height: 2%;
+    color: #1e1c1c;
+    overflow: hidden;
+    z-index: 3;
+    position: relative;
 }
 
 .logo {
@@ -36,7 +71,6 @@ h1 {
     width: 80px;
     float: left;
 }
-
 
 .menu {
 
@@ -46,15 +80,6 @@ h1 {
     justify-content: center;
     font-weight: 500;
     width: auto;
-}
-
-header {
-    background-color: rgba(10, 10, 10, 0.692);
-    height: 2%;
-    color: #1e1c1c;
-    overflow: hidden;
-    z-index: 3;
-    position: relative;
 }
 
 .menu li {
@@ -81,6 +106,8 @@ header {
 }
 
 
+
+/* Footer styling */
 footer {
     bottom: 0;
     height: 150px;
@@ -111,7 +138,6 @@ footer {
 
 .social-networks li {
     display: inline;
-
 }
 
 
@@ -130,18 +156,7 @@ footer {
 }
 
 
-.images {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    justify-content: space-around;
-    margin: auto;
-    padding-top: 6em;
-    padding-bottom: 6em;
-}
-
-
-
+/* Home page */
 .intro {
     margin-top: 1em;
     display: flex;
@@ -171,19 +186,6 @@ footer {
     width: 70%;
 }
 
-#heroimgbig {
-    width: 100%;
-    height: 770px;
-    z-index: 2;
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-}
-
-#heroimgsmall {
-    display: none;
-}
-
 .graph {
 
     width: auto;
@@ -193,19 +195,66 @@ footer {
     margin-top: 10em;
 }
 
-.middle {
+#endp {
+    width: 70%;
+    margin-top: 2em;
+    padding-top: 5em;
+    margin-left: 15%;
+    font-size: xx-large;
+    background-color: #1e1c1c;
+    height: fit-content;
     text-align: center;
-    font-size: 1.7em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    line-height: 1.3em;
+    font-size: 1.6em;
+    padding-bottom: 4em;
 }
 
-.text-width {
-    width: 80%;
+/* 3 image links on home page*/
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
+.imgindiv {
+    width: 350px;
+    height: auto;
+    transform: scale(1);
+    border: 1px solid #fff9f900;
+}
+
+.hover:hover {
+    animation: imgzoom 1s;
+    animation-fill-mode: both;
+    overflow: hidden;
+}
+
+
+.images div {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+    color: #edeee7;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: rgb(230, 224, 224);
+    background-color: #1e1c1c;
+    padding: 6px;
+}
+
+.bg-img {
+    background-image: url(../images/wallbackgroundblackblur.jpg);
+    background-size: 110%;
+}
+
+/* News page */
 .text-width-news {
     width: 70%;
     line-height: 1.4;
@@ -231,6 +280,17 @@ footer {
     width: 50%;
 }
 
+.date {
+    margin-top: 1em;
+    text-align: left;
+    margin-left: 2%;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: underline solid 0.2px;
+    color: rgba(204, 202, 200, 0.596);
+}
+
+/* Induction page */
 #imginduction {
     margin-bottom: 3em;
     width: 50%;
@@ -242,17 +302,7 @@ footer {
     margin-top: 4em;
 }
 
-.date {
-    margin-top: 1em;
-    text-align: left;
-    margin-left: 2%;
-    width: 100%;
-    font-weight: bold;
-    text-decoration: underline solid 0.2px;
-    color: rgba(204, 202, 200, 0.596);
-}
-
-
+/* Membership page */
 .table {
     font-size: 1.7em;
     font-weight: bold;
@@ -267,8 +317,7 @@ footer {
     margin: 3em auto;
 }
 
-
-#main {
+#content {
     margin-top: 700px;
     padding-top: 2em;
     background-color: #1e1c1c;
@@ -294,48 +343,8 @@ td {
     border-collapse: collapse;
 }
 
-.imgindiv {
-    width: 350px;
-    height: auto;
-    transform: scale(1);
-    border: 1px solid #fff9f900;
-}
 
-.hover:hover {
-    animation: imgzoom 1s;
-    animation-fill-mode: both;
-    overflow: hidden;
-}
-
-#endp {
-    width: 70%;
-    margin-top: 2em;
-    padding-top: 5em;
-    margin-left: 15%;
-    font-size: xx-large;
-    background-color: #1e1c1c;
-    height: fit-content;
-    text-align: center;
-    font-size: 1.6em;
-    padding-bottom: 4em;
-}
-
-.images div {
-    position: relative;
-}
-
-.centered {
-    position: absolute;
-    bottom: 8%;
-    right: 4%;
-    color: #edeee7;
-    font-weight: 800;
-    font-size: 1.2em;
-    color: rgb(230, 224, 224);
-    background-color: #1e1c1c;
-    padding: 6px;
-}
-
+/* About Us page*/
 .about-text {
     font-size: 1.6em;
     width: 30%;
@@ -375,6 +384,7 @@ td {
     background-color: #1e1c1c
 }
 
+/* 404 page */
 #four {
 
     width: 30%;
@@ -405,9 +415,10 @@ td {
     margin-top: 5em;
 }
 
+/* Media queries for devices under 1600px */
 @media screen and (max-width: 1600px) {
 
-
+    /* Home page under 1600px */
     .graph {
         height: auto;
         width: 45%;
@@ -424,25 +435,24 @@ td {
         padding-left: 0;
 
     }
-
-    .hover {
-        transform: scale(0.9);
-    }
-
     .showbig {
         display: block;
     }
 
-    .imgwidth {
-        width: 80%;
-
+    /* Home page 3 image links under 1600px */
+    .hover {
+        transform: scale(0.9);
     }
 
+    /* News page under 1600px */
+    .imgwidth {
+        width: 80%;
+    }
+
+    /* About us page under 1600px */
     #aboutusimg {
         width: 100%;
         margin-left: 0;
-
-
     }
 
     .about-text {
@@ -456,6 +466,7 @@ td {
         width: 80%;
     }
 
+    /* 404 page under 1600px */
     #four {
 
         width: 60%;
@@ -464,55 +475,13 @@ td {
     }
 
 }
-
+/* Media queries for devices under 950px */
 @media screen and (max-width: 950px) {
 
-    .menu li {
-        font-size: 3em;
-        margin-top: 0
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .bg-img {
-        background-size: 400%;
-    }
-
+    /* Site wide under 950px */
     body {
         zoom: 100%;
     }
-
-    nav {
-        width: 100%;
-        height: 70px;
-    }
-
-    .intro {
-        font-size: xx-large;
-        text-align: left;
-        width: fit-content;
-    }
-
-    .menu a {
-        width: fit-content;
-        font-size: 18px;
-        font-weight: 700;
-    }
-
-    footer {
-        width: 100%;
-        font-size: 90%;
-        z-index: 2;
-        height: fit-content;
-    }
-
-    .hours {
-        width: 150px;
-    }
-
-
 
     #heroimgbig {
         display: none;
@@ -531,6 +500,63 @@ td {
     body {
         position: absolute;
         width: 100vw;
+    }
+
+    .middle {
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 1em;
+        margin-right: 0.4em;
+    }
+
+    /* Navigation bar under 950px */
+    .menu li {
+        font-size: 3em;
+        margin-top: 0
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        height: 70px;
+    }
+
+    .menu a {
+        width: fit-content;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    /* Footer under 950px */
+    footer {
+        width: 100%;
+        font-size: 90%;
+        z-index: 2;
+        height: fit-content;
+    }
+
+    .hours {
+        width: 150px;
+    }
+
+    .social-networks i {
+        font-size: 200%;
+        margin-bottom: 0.8em;
+        margin-right: 10px;
+    }
+
+    #instagram {
+        margin-right: 12px;
+    }
+
+    /* Home page under 950px */
+    .intro {
+        font-size: xx-large;
+        text-align: left;
+        width: fit-content;
     }
 
     .intro p {
@@ -552,6 +578,7 @@ td {
 
 
     h1 {
+        margin-top: -7em;
         font-size: 3.5em;
     }
 
@@ -571,11 +598,45 @@ td {
         padding-bottom: 2em;
     }
 
-    #main {
+    .hidebig {
+        display: block;
+    }
+
+    #content {
         margin-top: 34em;
 
     }
 
+    /* Home page 3 image links under 950px */
+    .centered {
+        right: 8%;
+        bottom: 16%;
+    }
+    .images {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 1em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .imgindiv {
+        width: 97%;
+        height: auto;
+        top: 0;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        transform: scale(0.9);
+    }
+
+    .bg-img {
+        background-size: 400%;
+    }
+
+    /* About us page under 950px */
     #main-about {
         margin-top: 34em;
         width: 90%;
@@ -598,48 +659,29 @@ td {
         font-size: 1.2em;
     }
 
+    /* News page under 950px */
+
     .date {
         text-align: center;
         margin-bottom: 2em;
     }
+    
 
-    .images {
-        display: block;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        margin-top: 1em;
-        padding-top: 3em;
-        padding-bottom: 3em;
+    .text-width-news {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 1.2em;
+    }
+    
+    .text-width-news h2 {
+        margin-left: 5%;
     }
 
-    .imgindiv {
-        width: 97%;
-        height: auto;
-        top: 0;
-        margin: 0;
-        padding-left: 0;
-        padding-right: 0;
-        transform: scale(0.9);
+    .imgwidth {
+        width: 100%;
     }
 
-    .social-networks i {
-        font-size: 200%;
-        margin-bottom: 0.8em;
-        margin-right: 10px;
-    }
-
-    #instagram {
-        margin-right: 12px;
-    }
-
-    .middle {
-        text-align: center;
-        font-size: 1.5em;
-        margin-top: 1em;
-        margin-right: 0.4em;
-    }
-
+    /* Membership page under 950px */
     .table {
         font-size: 1.6em;
         font-weight: bold;
@@ -658,21 +700,8 @@ td {
     .text-width {
         width: 90%;
     }
-
-    .text-width-news {
-        width: 90%;
-        margin-left: 5%;
-        font-size: 1.2em;
-    }
-
-    .text-width-news h2 {
-        margin-left: 5%;
-    }
-
-    .imgwidth {
-        width: 100%;
-    }
-
+  
+    /* Induction page under 950px */
     #imginduction {
         margin-top: 3em;
         margin-left: 2.5%;
@@ -684,15 +713,10 @@ td {
         padding-bottom: 1em;
     }
 
-    .centered {
-        right: 8%;
-        bottom: 16%;
-    }
+   
 
-    .hidebig {
-        display: block;
-    }
-
+   
+    /* 404 page under 950 px*/
     #four {
 
         width: 80%;
@@ -700,8 +724,17 @@ td {
         margin-top: 2em;
     }
 }
+/* Media queries for devices under 300px*/
+@media screen and (max-width: 300px) {
 
+    /* Navigation bar under 300px*/
+    .menu a {
+        font-size: 16px;
+    }
+    
+}
 
+/* Zoom effect for 3 image links and button on 404 poge */
 @keyframes imgzoom {
     from {
         transform: scale(1);
