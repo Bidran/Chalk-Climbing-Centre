@@ -268,6 +268,33 @@ To clone the Chalk-Climbing-Centre repository:
 
 ![404 HTML Validator Results](/assets/docs/testing/cssvalidator.PNG)
 
+### Lighthouse
+
+<details>
+<summary>Desktop lighthouse testing</summary>
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthouseaboutdesktop.PNG" alt= “” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthouseinductiondesktop.PNG" alt= “” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthousemembershipdesktop.PNG" alt= “” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthousenewsdesktop.PNG" alt= “” >
+</details>
+
+<details>
+<summary>Mobile lighthouse testing</summary>
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthousehomemobile.PNG" alt= “” >
+<br> 
+<img src="./assets/docs/testing/lighthouse/lighthouseaboutmobile.PNG" alt= “” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthouseinductionmobile.PNG" alt= “” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthousemembershipmobile.PNG" alt= “” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthousenewsmobile.PNG" alt= “” >
+</details>
 
 ### Solved Bugs
     On 320px devices it was scrollable to the right
