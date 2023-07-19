@@ -29,6 +29,15 @@ h1 {
     text-shadow: 10px 10px 2px rgb(0, 0, 0);
 }
 
+h2 {
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+#content > h2 {
+    font-size: 3.5em;
+    margin-bottom: 1em;
+}
 /* Classes that were used multiple times troughout website to center the text */
 .middle {
     text-align: center;
