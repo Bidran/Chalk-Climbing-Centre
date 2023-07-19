@@ -127,19 +127,19 @@ The website is comprised of five pages, four of which are accessible from the na
     * Contains links to home, membership, news & about us pages with a logo that also leads to the home page.
     * This allows the user to navigate between importan pages to have information that they require.
 
-        <img src="./assets/docs/features/navbar.PNG" alt= “” width="50%">
+        <img src="./assets/docs/features/navbar.PNG"
   
 
   * A footer
     * Contains information on opening hours and the location along with social media icon links to facebook and instagram.
     * Allows the user find out when and where they can find the gym along with the social media.
 
-        <img src="./assets/docs/features/footer.PNG" alt= “” width="50%" >
+        <img src="./assets/docs/features/footer.PNG">
   * A hero image
     * Contains an hero image with a title of Chalk Climbing Centre
     * Makes user immediately aware of what the website is about and the name of the gym.
 
-        <img src="./assets/docs/features/heroimg.PNG" alt= “” width="50%">
+        <img src="./assets/docs/features/heroimg.PNG">
 
 #### Home Page.
   * Intro Section.
@@ -147,14 +147,14 @@ The website is comprised of five pages, four of which are accessible from the na
     * An introduction on what Chalk Climbing Centre is all about with a graph.
     * Gives basic info about the gym along with the busiest hours that allows members to come to the gym when it's less busy.
 
-        <img src="./assets/docs/features/intro.PNG" alt= “” width="50%">
+        <img src="./assets/docs/features/intro.PNG">
 
  * Links section.
     
     * Containts 3 images leading to Pricing, Induction and About Us.
     * This section allows the user to navigate and snap viewport to different parts of the website by clicking on the images. The images expand when hovered over (Pricing, Induction and About Us page)
 
-        <img src="./assets/docs/features/links.PNG" alt= “” width="50%">
+        <img src="./assets/docs/features/links.PNG">
 
 #### Membership page.
 
@@ -162,7 +162,7 @@ The website is comprised of five pages, four of which are accessible from the na
     * Information about registration, shoe hire and a table with pricing for single entry and monthly memberships. 
     * Allows the user to know the exact information about how much it will cost them.
 
-        <img src="./assets/docs/features/membership.PNG" alt= “” width="50%">
+        <img src="./assets/docs/features/membership.PNG">
       
 
  #### News page.
@@ -170,7 +170,7 @@ The website is comprised of five pages, four of which are accessible from the na
     * Each news article contains an image, date published and a paragraph seperated by a line. 
     * Allows user to find out information about past or upcoming events. 
 
-        <img src="./assets/docs/features/news.PNG" alt= “” width="50%" >
+        <img src="./assets/docs/features/news.PNG">
 
  #### About Us page.
   * About us section.
@@ -178,13 +178,13 @@ The website is comprised of five pages, four of which are accessible from the na
     * Contains an image with a paragraph about the gym.
     * This section provides information about owners of the gym along with an image of them inside the gym. 
 
-        <img src="./assets/docs/features/aboutus.PNG" alt= “” width="50%" >
+        <img src="./assets/docs/features/aboutus.PNG">
  #### Induction page.
   * Induction section.
 
     * Contains an image with a paragraph about induction.
     * This section provides information on our procedure for climbers coming for the first time to the gym along with an image of one of the instructors. 
-      <img src="./assets/docs/features/induction.PNG" alt= “” width="50%">
+      <img src="./assets/docs/features/induction.PNG">
 
 
 ### Accessibility
