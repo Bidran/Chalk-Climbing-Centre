@@ -28,10 +28,11 @@ View the live site: [Chalk Climbing Centre](https://bidran.github.io/Chalk-Climb
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 
-* [Testing](#testing)
+* [Testing](#testing) 
+  *[W3C Validator](#w3c-validator)
+  *[Lighthouse](#lighthouse)
 
 * [Credits](#credits)
-  * [Code Used](#code-used)
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
@@ -120,93 +121,128 @@ The website is comprised of five pages, four of which are accessible from the na
 
 ### General features on each page
 
-* All Pages on the website have:
+#### All Pages on the website have:
 
-  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is an image of Chalk Climbing Centre's logo which also leads to the home page. To the right of the navigation bar are the links to the websites pages (home page, membership, news & about us). To allow a good user experience of the site, the Chalk Climbing Centre's logo is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered and undersized.
+  * Navigation Bar
+    * Contains links to home, membership, news & about us pages with a logo that also leads to the home page.
+    * This allows the user to navigate between importan pages to have information that they require.
 
-  * A footer which contains information on opening hours and the location along with social media icon links to facebook and instagram.
-
-  * A hero image with the title of Chalk Climbing Centre
-
-* Home Page.
-  * Intro Section.
-
-    An introduction on what Chalk Climbing Centre is all about.
-  * A graph.
-
-     A graph which shows the busiest hours that allows members to come to the gym when it's less busy if that is their choice.
-  * Links section.
-    
-    This section allows the user to navigate and snap viewport to different parts of the website by clicking on the images. (Pricing, Induction and About Us page)
-
-* Membership.
-  * Day pass section.
-
-    Information about registration, shoe hire and a table with pricing for single entry. 
-
-  * Membership section.
-    
-    This section allows the user to find out information about variation in pricing between 3, 6 and 12 month memberships.
-
-* News.
-  * News section.
-
-    Each news article contains an image, date published and an information about past or upcoming events seperated by a line.
-
-
-* About Us.
-  * About us section.
-
-    This section provides information about owners of the gym along with an image of them inside the gym. 
-
-* Induction.
-  * Induction section.
-
-    This section provides gives information on our procedure for climbers coming for the first time to the gym along with an image of one of the instructors. 
+        <img src="./assets/docs/features/navbar.PNG" alt= “” width="50%">
   
 
+  * A footer
+    * Contains information on opening hours and the location along with social media icon links to facebook and instagram.
+    * Allows the user find out when and where they can find the gym along with the social media.
+
+        <img src="./assets/docs/features/footer.PNG" alt= “” width="50%" >
+  * A hero image
+    * Contains an hero image with a title of Chalk Climbing Centre
+    * Makes user immediately aware of what the website is about and the name of the gym.
+
+        <img src="./assets/docs/features/heroimg.PNG" alt= “” width="50%">
+
+#### Home Page.
+  * Intro Section.
+
+    * An introduction on what Chalk Climbing Centre is all about with a graph.
+    * Gives basic info about the gym along with the busiest hours that allows members to come to the gym when it's less busy.
+
+        <img src="./assets/docs/features/intro.PNG" alt= “” width="50%">
+
+ * Links section.
+    
+    * Containts 3 images leading to Pricing, Induction and About Us.
+    * This section allows the user to navigate and snap viewport to different parts of the website by clicking on the images. The images expand when hovered over (Pricing, Induction and About Us page)
+
+        <img src="./assets/docs/features/links.PNG" alt= “” width="50%">
+
+#### Membership page.
+
+ * Membership section.
+    * Information about registration, shoe hire and a table with pricing for single entry and monthly memberships. 
+    * Allows the user to know the exact information about how much it will cost them.
+
+        <img src="./assets/docs/features/membership.PNG" alt= “” width="50%">
+      
+
+ #### News page.
+  * News section.
+    * Each news article contains an image, date published and a paragraph seperated by a line. 
+    * Allows user to find out information about past or upcoming events. 
+
+        <img src="./assets/docs/features/news.PNG" alt= “” width="50%" >
+
+ #### About Us page.
+  * About us section.
+
+    * Contains an image with a paragraph about the gym.
+    * This section provides information about owners of the gym along with an image of them inside the gym. 
+
+        <img src="./assets/docs/features/aboutus.PNG" alt= “” width="50%" >
+ #### Induction page.
+  * Induction section.
+
+    * Contains an image with a paragraph about induction.
+    * This section provides information on our procedure for climbers coming for the first time to the gym along with an image of one of the instructors. 
+      <img src="./assets/docs/features/induction.PNG" alt= “” width="50%">
 
 
 ### Accessibility
-The website has been made with accessibility in mind for ease of access which was achieved by:
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
 
-* Using semantic HTML.
-* Using descriptive alt attributes on images on the site.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-* Ensuring menus are accessible by marking the current page as current for screen readers.
+Testing was focused to ensure the following criteria were met:
+
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
+
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
+
+Issue #1: Wave showed error for missing table header
+
+Fix: Added a table header for better accessibility
+
+
+Issue #2: Footer contained an h3, while h2 was not present on all pages
+
+Fix: Added h2 elements to all pages with information required for screen readers
 
 ## Technologies Used
 
-Visual Studio Code - To code the website.
+* Visual Studio Code - To code the website.
 
-Balsamiq - Used to create wireframes.
+* Balsamiq - Used to create wireframes.
 
-Git - For version control.
+* Git - For version control.
 
-Github - To save and store the files for the website.
+* Github - To save and store the files for the website.
 
-Font Awesome - For the iconography on the website.
+* Font Awesome - For the iconography on the website.
 
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[11zon](https://www.11zon.com/) To compress images.
+* [11zon](https://www.11zon.com/) To compress images.
 
-[Shutterstock](https://www.shutterstock.com/) To acquire royalty free images.
+* [Shutterstock](https://www.shutterstock.com/) To acquire royalty free images.
 
-[Pexels](https://www.pexels.com/) To acquire royalty free images.
+* [Pexels](https://www.pexels.com/) To acquire royalty free images.
 
-[Favicon.io](https://favicon.io/) To create favicon.
+* [Favicon.io](https://favicon.io/) To create favicon.
 
-[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-[Pixlr](https://pixlr.com/) To edit the images to fit the theme of the website.
+* [Pixlr](https://pixlr.com/) To edit the images to fit the theme of the website.
 
 
 ### Languages Used
 
-The structure of the website was developed using HTML as the main language.
+* The structure of the website was developed using HTML as the main language.
 
-The website was styled using CSS.
+* The website was styled using CSS.
 
 
 ## Deployment & Local Development
@@ -306,15 +342,53 @@ To clone the Chalk-Climbing-Centre repository:
 
 
 ### Known Bugs
+
+No bugs were found by me when final testing.
 ### Testing User Stories
-### Lighthouse
 ### Full Testing
 
 
 
 ## Credits
 
-### Code Used
+
 ### Content
+
+Parts of the website were inspired by [Brooklyn Boulders](https://brooklynboulders.com)
+
 ### Media
+A variety of stock images from [Pexels](https://www.pexels.com/) & [Shutterstock](https://www.shutterstock.com/) were used for this project.
+
+* Site wide
+    * [Hero image by Nejron Photo](https://www.shutterstock.com/image-photo/muscular-man-practicing-rockclimbing-on-rock-231079921)
+
+* Home page
+    * [Pricing link by Karolina Grabowska](https://www.pexels.com/photo/hands-holding-us-dollar-bills-4968384/)
+
+    * [Induction link by Allan Mas](https://www.pexels.com/photo/anonymous-barefoot-climber-and-ethic-partner-ascending-artificial-rock-5384406/)
+
+    * [About us link by cottonbrostudio](https://www.pexels.com/photo/woman-doing-wall-climbing-6700633/)
+   
+
+* News page
+    * [Competition by cottonbro studio](https://www.pexels.com/photo/a-woman-climbing-a-bouldering-wall-6701735/)
+
+    * [Outdoor by Photobac](https://www.shutterstock.com/image-photo/rock-climber-sunset-kalymnos-island-greece-116403520)
+
+    * [Pizza by Sydney Troxell](https://www.pexels.com/photo/sliced-pepperoni-pizza-on-white-ceramic-plate-708587/)
+
+* About us page
+    * [About us](https://www.pexels.com/photo/light-city-fashion-man-6675098/)
+
+* Induction page
+    * [Induction by Allan Mas](https://www.pexels.com/photo/asian-male-trainer-speaking-with-unrecognizable-climber-before-training-5383538/)
+
+* 404 page
+    * [404 image by Prazis Images](https://www.shutterstock.com/image-vector/silhouette-two-male-climbers-rescuing-another-2264547757)        
+
 ### Acknowledgments
+
+I would like to thank following people for helping me with my first project:
+    
+* [Gareth McGirr](https://github.com/Gareth-McGirr/) - My mentor, for helping me troughout this project with his advice
+* Allen Gleeson, Marcin Mrugacz &  [Kera Cudmore](https://github.com/kera-cudmore) - For comments on improvement after posting in Slack Peer code review channel

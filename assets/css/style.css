@@ -671,6 +671,9 @@ td {
         font-size: 1.2em;
     }
 
+    #abouth1 {
+        margin-top: -7em;
+    }
     /* News page under 950px */
 
     .date {
@@ -744,6 +747,14 @@ td {
         font-size: 16px;
     }
     
+    table {
+        transform: scale(0.8);
+      
+      
+    }
+    th {
+        font-size: x-large
+    }
 }
 
 /* Zoom effect for 3 image links and button on 404 poge */
