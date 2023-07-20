@@ -31,6 +31,9 @@ View the live site: [Chalk Climbing Centre](https://bidran.github.io/Chalk-Climb
 * [Testing](#testing)
   * [W3C Validator](#w3c-validator)
   * [Lighthouse](#lighthouse)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
+  * [Functional testing](#functional-testing)
 
 * [Credits](#credits)
   * [Content](#content)
@@ -114,6 +117,9 @@ Wireframes created for desktop and mobile showing the original idea behind the p
 
 <img src="./assets/docs/wireframes/mobileaboutus.png" alt= “” width="value" height="500px">
 
+#### Induction
+  Induction page was not in the first plan and was added as an afterthought.
+
 
 ### Features
 
@@ -136,7 +142,7 @@ The website is comprised of five pages, four of which are accessible from the na
 
         <img src="./assets/docs/features/footer.PNG">
   * A hero image
-    * Contains an hero image with a title of Chalk Climbing Centre
+    * Contains a hero image with a title of Chalk Climbing Centre.
     * Makes user immediately aware of what the website is about and the name of the gym.
 
         <img src="./assets/docs/features/heroimg.PNG">
@@ -222,29 +228,31 @@ Fix: Added h2 elements to all pages with information required for screen readers
 
 ## Technologies Used
 
-* Visual Studio Code - To code the website.
+* [Visual Studio Code](https://code.visualstudio.com) - To code the website.
 
-* Balsamiq - Used to create wireframes.
+* [Balsamiq](https://balsamiq.com/wireframes/) - Used to create wireframes.
 
-* Git - For version control.
+* [Git](https://git-scm.com) - For version control.
 
-* Github - To save and store the files for the website.
+* [Github](https://github.com) - To save and store the files for the website.
 
-* Font Awesome - For the iconography on the website.
+* [Font Awesome](https://fontawesome.com) - For the iconography on the website.
 
-* Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [11zon](https://www.11zon.com/) To compress images.
+* [ChatGPT](https://chat.openai.com) - To create some of content specific text.
 
-* [Shutterstock](https://www.shutterstock.com/) To acquire royalty free images.
+* [11zon](https://www.11zon.com/) - To compress images.
 
-* [Pexels](https://www.pexels.com/) To acquire royalty free images.
+* [Shutterstock](https://www.shutterstock.com/) - To acquire royalty free images.
 
-* [Favicon.io](https://favicon.io/) To create favicon.
+* [Pexels](https://www.pexels.com/) - To acquire royalty free images.
 
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Favicon.io](https://favicon.io/) - To create favicon.
 
-* [Pixlr](https://pixlr.com/) To edit the images to fit the theme of the website.
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
+
+* [Pixlr](https://pixlr.com/) - To edit the images to fit the theme of the website.
 
 
 ### Languages Used
@@ -310,13 +318,21 @@ To clone the Chalk-Climbing-Centre repository:
 
 * CSS
     * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
-
-![404 HTML Validator Results](/assets/docs/testing/cssvalidator.PNG)
+      
+        <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"alt="Valid CSS!" />
+        </a>
+        </p>
+![CSS Validator Results](/assets/docs/testing/cssvalidator.PNG)
+    
 
 ### Lighthouse
 
 <details>
 <summary>Desktop lighthouse testing</summary>
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthousehomedesktop.PNG" alt= “Lighthouse home desktop” >
 <br>
 <img src="./assets/docs/testing/lighthouse/lighthouseaboutdesktop.PNG" alt= “Lighthouse about desktop” >
 <br>
@@ -325,6 +341,8 @@ To clone the Chalk-Climbing-Centre repository:
 <img src="./assets/docs/testing/lighthouse/lighthousemembershipdesktop.PNG" alt= “Lighthouse membership desktop” >
 <br>
 <img src="./assets/docs/testing/lighthouse/lighthousenewsdesktop.PNG" alt= “Lighthouse news desktop” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthouse404desktop.PNG" alt= “Lighthouse 404 desktop” >
 </details>
 
 <details>
@@ -339,6 +357,8 @@ To clone the Chalk-Climbing-Centre repository:
 <img src="./assets/docs/testing/lighthouse/lighthousemembershipmobile.PNG" alt= “Lighthouse membership mobile” >
 <br>
 <img src="./assets/docs/testing/lighthouse/lighthousenewsmobile.PNG" alt= “Lighthouse news mobile” >
+<br>
+<img src="./assets/docs/testing/lighthouse/lighthouse404mobile.PNG" alt= “Lighthouse news mobile” >
 </details>
 
 ### Solved Bugs
@@ -355,7 +375,7 @@ To clone the Chalk-Climbing-Centre repository:
  
       This issue was solved by moving the graph further down for clarity.
 
-   3. The text on image links wasnt aligned when the element is hover over
+   3. The text on image links wasnt aligned when the element is hovered over
       
       <img src= "./assets/docs/bugs/bugimage.png" height = 200px>
  
@@ -365,7 +385,8 @@ To clone the Chalk-Climbing-Centre repository:
 
 ### Known Bugs
 
-No bugs were found by me when final testing.
+No bugs were found by when testing the final version of the website.
+
 ### Functional Testing
 
 Functional testing was made troughout the development on various browsers (Opera, Chrome & Firefox) and devices (PC & Samsung A23 5G)
