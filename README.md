@@ -191,7 +191,7 @@ The website is comprised of five pages, four of which are accessible from the na
   * 404 section.
 
     * Contains an image with a button to lead to the home page.
-    * This section provides users with the opportunity to go back to the home page with a click of a button if their a page returns 404 error.
+    * This section provides users with the opportunity to go back to the home page with a click of a button if their page returns 404 error.
       
       <img src="./assets/docs/features/404.PNG">
 
@@ -342,12 +342,25 @@ To clone the Chalk-Climbing-Centre repository:
 </details>
 
 ### Solved Bugs
-    On 320px devices it was scrollable to the right
-    Fixed by changing font size on h1 caused by shadow and sizing down images
 
-    Graph fixed positioning
+  1. On 320px devices, the website had an unintended issue where it could scroll to the right horizontally.
+      
+      <img src= "./assets/docs/bugs/bugh1.png" height = 400px>
+ 
+      This issue was solved by changing font size on h1 which caused a shadow which went off screen.
+ 
+   2. On 320px devices, graph was in an unintended position due to z-index.
+      
+      <img src= "./assets/docs/bugs/buggraph.png" height = 400px>
+ 
+      This issue was solved by moving the graph further down for clarity.
 
-    Fix text positioning on images
+   3. The text on image links wasnt aligned when the element is hover over
+      
+      <img src= "./assets/docs/bugs/bugimage.png" height = 200px>
+ 
+      This issue was solved by applying class attribute to the div rather than just an image as it was before.
+
 
 
 ### Known Bugs
