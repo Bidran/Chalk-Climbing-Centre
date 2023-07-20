@@ -4,7 +4,7 @@ Chalk is a website for a premier indoor climbing gym where users can find out mo
 
 View the live site: [Chalk Climbing Centre](https://bidran.github.io/Chalk-Climbing-Centre/)
 
-![Amiresponsive image of Chalk climbing centre](/assets/images/readme/amiresponsive.PNG)
+![Amiresponsive image of Chalk climbing centre](./assets/docs/amiresponsive.PNG)
 
 ## CONTENTS
 
@@ -28,9 +28,9 @@ View the live site: [Chalk Climbing Centre](https://bidran.github.io/Chalk-Climb
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 
-* [Testing](#testing) 
-  *[W3C Validator](#w3c-validator)
-  *[Lighthouse](#lighthouse)
+* [Testing](#testing)
+  * [W3C Validator](#w3c-validator)
+  * [Lighthouse](#lighthouse)
 
 * [Credits](#credits)
   * [Content](#content)
@@ -92,27 +92,27 @@ Wireframes created for desktop and mobile showing the original idea behind the p
 
 #### Home
 
-<img src="./assets/images/readme/wireframes/home.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/home.png" alt= “” width="value" height="500px">
 
-<img src="./assets/images/readme/wireframes/mobilehome.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/mobilehome.png" alt= “” width="value" height="500px">
 
 #### Membership
 
-<img src="./assets/images/readme/wireframes/membership.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/membership.png" alt= “” width="value" height="500px">
 
-<img src="./assets/images/readme/wireframes/mobilemembership.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/mobilemembership.png" alt= “” width="value" height="500px">
 
 #### News
 
-<img src="./assets/images/readme/wireframes/news.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/news.png" alt= “” width="value" height="500px">
 
-<img src="./assets/images/readme/wireframes/mobilenews.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/mobilenews.png" alt= “” width="value" height="500px">
 
 #### About Us
 
-<img src="./assets/images/readme/wireframes/aboutus.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/aboutus.png" alt= “” width="value" height="500px">
 
-<img src="./assets/images/readme/wireframes/mobileaboutus.png" alt= “” width="value" height="500px">
+<img src="./assets/docs/wireframes/mobileaboutus.png" alt= “” width="value" height="500px">
 
 
 ### Features
@@ -127,7 +127,7 @@ The website is comprised of five pages, four of which are accessible from the na
     * Contains links to home, membership, news & about us pages with a logo that also leads to the home page.
     * This allows the user to navigate between importan pages to have information that they require.
 
-        <img src="./assets/docs/features/navbar.PNG"
+        <img src="./assets/docs/features/navbar.PNG">
   
 
   * A footer
@@ -184,7 +184,16 @@ The website is comprised of five pages, four of which are accessible from the na
 
     * Contains an image with a paragraph about induction.
     * This section provides information on our procedure for climbers coming for the first time to the gym along with an image of one of the instructors. 
+      
       <img src="./assets/docs/features/induction.PNG">
+
+#### 404 page.
+  * 404 section.
+
+    * Contains an image with a button to lead to the home page.
+    * This section provides users with the opportunity to go back to the home page with a click of a button if their a page returns 404 error.
+      
+      <img src="./assets/docs/features/404.PNG">
 
 
 ### Accessibility
@@ -309,27 +318,27 @@ To clone the Chalk-Climbing-Centre repository:
 <details>
 <summary>Desktop lighthouse testing</summary>
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthouseaboutdesktop.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthouseaboutdesktop.PNG" alt= “Lighthouse about desktop” >
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthouseinductiondesktop.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthouseinductiondesktop.PNG" alt= “Lighthouse induction desktop” >
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthousemembershipdesktop.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthousemembershipdesktop.PNG" alt= “Lighthouse membership desktop” >
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthousenewsdesktop.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthousenewsdesktop.PNG" alt= “Lighthouse news desktop” >
 </details>
 
 <details>
 <summary>Mobile lighthouse testing</summary>
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthousehomemobile.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthousehomemobile.PNG" alt= “Lighthouse home mobile” >
 <br> 
-<img src="./assets/docs/testing/lighthouse/lighthouseaboutmobile.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthouseaboutmobile.PNG" alt= “Lighthouse about mobile” >
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthouseinductionmobile.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthouseinductionmobile.PNG" alt= “Lighthouse induction mobile” >
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthousemembershipmobile.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthousemembershipmobile.PNG" alt= “Lighthouse membership mobile” >
 <br>
-<img src="./assets/docs/testing/lighthouse/lighthousenewsmobile.PNG" alt= “” >
+<img src="./assets/docs/testing/lighthouse/lighthousenewsmobile.PNG" alt= “Lighthouse news mobile” >
 </details>
 
 ### Solved Bugs
@@ -344,8 +353,43 @@ To clone the Chalk-Climbing-Centre repository:
 ### Known Bugs
 
 No bugs were found by me when final testing.
-### Testing User Stories
-### Full Testing
+### Functional Testing
+
+Functional testing was made troughout the development on various browsers (Opera, Chrome & Firefox) and devices (PC & Samsung A23 5G)
+
+The testing process aimed to verify that all navigation links on the respective pages accurately led to the intended pages as designed. This validation was achieved by actively clicking on each navigation link present on every page.
+
+* Navigation bar
+
+  | Navigation Link | Page to Load    |
+  | --------------- | --------------- |
+  | Home            | index.html      |
+  | Membership      | adventures.html |
+  | News            | news.html       |
+  | About Us        | aboutus.html    |
+
+  RESULT: All of the links navigated to the corresponding pages.
+
+---------
+
+
+The testing process aimed to verify that all navigation links snapped immediately to part of the page with relevant content and that the image & text increased in size when hovered over.
+
+* 3 links on the home page
+
+  | Navigation Link | Page to Load          |
+  | --------------- | --------------------  |
+  | Pricing         | membership.html#main  |
+  | Induction       | induction.html#main   |
+  | About Us        | about.html#main-about |
+
+  RESULT: All links led to required parts and the image with text description scaled when hovered over.
+
+---------
+
+The testing process aimed to verify that the social media icons open correctly and in a seperate tab.
+
+RESULT: Both Instagram and Facebook icon open expected websites in a new tab and had correct aria labels.
 
 
 
